@@ -163,17 +163,7 @@ select {
 }
 
 @media only screen and (max-width: 2024px) { 
-    #mobile_menu { display: block; }
-    #navbar { display: none; }
-    header h2 { font-size: 1.375em; }       /* 22 ÷ 16 */ 
-    header h3 { font-size: .8125em; }   /* 13 ÷ 16 */ 
-    p { font-size: .875em; }            /* 14 ÷ 16 */ 
-    article h1, main h2, aside h2
-        { font-size: 1em; }             /* base font size */ 
-    aside li { font-size: .875em; }     /* 14 ÷ 16 */
-    main { position: center;
-        width: 85%;
-        margin-left: 20px;}     
+    #mobile_menu { display: none; }    
 }
 /* tablet portrait layout (768px to 959px) */
 @media only screen and (max-width: 959px) { 
