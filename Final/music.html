@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+
+<!--Casey Avise-Rouse, SIU, Dev. 11/28/2022, Tested 12/11/2022 -->
+
+<html lang="en-US">
+<head>
+    <meta charset="utf-8">
+    <title>Casey Avise-Rouse</title>
+    <meta name="description" content="Casey Avise-Rouse Audio">
+    <meta name="keywords" content="casey, avise-rouse, audio, sound design, music">
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/slicknav.css"> 
+        <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script> 
+        <script src="js/jquery.slicknav.min.js"></script> 
+        
+</head>
+
+<body>
+    <nav id="mobile_menu"></nav>
+    <!--Heading and subheading-->
+    <header>
+        <a href="index.html"><img src="images/webheader.png" class="header"></a>
+    </header>
+   
+    <!--Nav Bar-->
+    <nav id="mobile_menu"></nav>
+    <nav id="navbar">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="sounddesign.html">Sound Design</a></li>
+            <li><a href="music.html">Music</a></li>
+            <li><a href="visual.html">Visual Art</a></li>
+            <li><a href="contact.html">Contact Me</a></li>
+        </ul>
+    </nav>
+    <script>$('#navbar').slicknav({prependTo:"#mobile_menu"})</script>
+
+    <!--Main text-->
+    <main>
+        <h2>Music</h2>
+        <br>
+        <img src="images\reaper.png" alt="Reaper DAW showing production process" class="rightimg">
+        <h3><i>Turbo Encabulator - 2020</i></h3>
+        <audio controls>
+            <source src="audio\turboencabsansguitarsolo1.mp3" type="audio/mpeg">       
+        </audio>
+        <h3><i>Observation - 2022</i></h3>
+        <audio controls>
+            <source src="audio\Observation.mp3" type="audio/mpeg">       
+        </audio>
+        <h3><i>Theme For A Game That Doesn't Exist - 2019</i></h3>
+        <audio controls>
+            <source src="audio\Main Theme.mp3" type="audio/mpeg">       
+        </audio>
+    </main>
+</body>
+</html>
